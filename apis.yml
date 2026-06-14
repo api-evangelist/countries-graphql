@@ -1,0 +1,62 @@
+aid: countries-graphql
+name: Countries GraphQL API
+description: |
+  Countries GraphQL API is a free, public GraphQL API that provides structured
+  information about countries, continents, and languages around the world. Created
+  by Trevor Blades, it draws from the Countries List dataset and the provinces npm
+  package, returning data such as capital cities, currencies, languages, and AWS
+  region mappings for every country.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://countries.trevorblades.com
+baseURL: https://countries.trevorblades.com
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Countries
+  - Geography
+  - Open Data
+  - Free
+  - Languages
+  - Continents
+apis:
+  - aid: countries-graphql:graphql-api
+    name: Countries GraphQL API GraphQL API
+    description: |
+      A public, free GraphQL endpoint that exposes queryable fields for countries,
+      continents, and languages. Countries can be filtered by code, currency, or
+      continent, and each country record includes fields such as capital, currency,
+      native name, phone code, emoji flag, languages spoken, AWS region, and
+      administrative subdivisions via the provinces package.
+    tags:
+      - GraphQL
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://github.com/trevorblades/countries
+    baseURL: https://countries.trevorblades.com
+    properties:
+      - url: https://github.com/trevorblades/countries
+        type: Documentation
+      - url: graphql/countries-graphql-graphql.md
+        type: GraphQL
+common:
+  - url: https://countries.trevorblades.com
+    type: Website
+  - url: https://github.com/trevorblades/countries
+    type: Documentation
+  - url: https://www.linkedin.com/in/trevorblades/
+    type: LinkedIn
+  - url: https://github.com/trevorblades
+    type: GitHubOrganization
+  - url: https://github.com/trevorblades/countries#readme
+    type: Pricing
+  - url: plans/countries-graphql-plans.md
+    type: Plans
+  - url: rate-limits/countries-graphql-rate-limits.md
+    type: RateLimits
+  - url: finops/countries-graphql-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
