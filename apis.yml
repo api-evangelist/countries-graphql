@@ -7,7 +7,7 @@ description: |
   package, returning data such as capital cities, currencies, languages, and AWS
   region mappings for every country.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://countries.trevorblades.com
 baseURL: https://countries.trevorblades.com
 created: 2026-06-14
@@ -32,7 +32,7 @@ apis:
       administrative subdivisions via the provinces package.
     tags:
       - GraphQL
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/trevorblades/countries
     baseURL: https://countries.trevorblades.com
     properties:
