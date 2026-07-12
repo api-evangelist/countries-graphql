@@ -41,6 +41,8 @@ apis:
       - url: graphql/countries-graphql-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/countries-graphql-domain-security.yml
   - url: https://countries.trevorblades.com
     type: Website
   - url: https://github.com/trevorblades/countries
